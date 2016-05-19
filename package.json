@@ -1,0 +1,23 @@
+{
+    "name": "chalkfjord",
+    "version": "0.0.1",
+    "description": "A chalkboard for giving presentations on the web",
+    "author": "Jim Fowler <fowler@math.osu.edu>",
+    "scripts": {
+	"start": "node index.js"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/kisonecat/chalkfjord"
+    },
+    "dependencies": {
+	"jquery": "*",
+	"bespoke": "*",
+	"bespoke-theme-voltaire": "*",
+	"bespoke-keys": "*",
+	"bespoke-touch": "*",				
+	"pug": "*",
+	"express": "*"
+    },
+    "license": "GPL-3.0"
+}

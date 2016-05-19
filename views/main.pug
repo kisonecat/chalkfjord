@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title= title
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="description",content="Chalkfjord is a chalkboard for presentations")
+    meta(name="author", content="Jim Fowler")
+
+    link(rel="stylesheet/less",type="text/css",href=stylesheet)
+
+    script(type="text/javascript",src="/node_modules/jquery/dist/jquery.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke/dist/bespoke.min.js")
+
+  body
+    block content

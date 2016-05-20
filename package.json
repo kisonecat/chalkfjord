@@ -13,10 +13,16 @@
     "dependencies": {
 	"jquery": "*",
 	"bespoke": "*",
-	"bespoke-theme-voltaire": "*",
+	"bespoke-theme-cube": "*",
 	"bespoke-keys": "*",
-	"bespoke-touch": "*",				
+	"bespoke-touch": "*",
+	"bespoke-backdrop": "*",
+	"bespoke-classes": "*",
+	"bespoke-progress": "*",
+	"bespoke-scale": "*",
+	"bespoke-hash": "*",	
 	"pug": "*",
+	"socket.io": "*",	
 	"express": "*"
     },
     "license": "GPL-3.0"

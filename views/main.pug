@@ -2,15 +2,33 @@ doctype html
 html(lang="en")
   head
     meta(charset="utf-8")
-    title= title
+    title
+      | Collaboratively teaching calculus with online tools
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(name="description",content="Chalkfjord is a chalkboard for presentations")
     meta(name="author", content="Jim Fowler")
 
-    link(rel="stylesheet/less",type="text/css",href=stylesheet)
+    link(rel="stylesheet",type="text/css",href="/public/styles.css")
 
     script(type="text/javascript",src="/node_modules/jquery/dist/jquery.min.js")
+
+    script(type="text/javascript")
+      | $(function() {
+      |    window.presenter = #{presenter};
+      |     window.initialSlide = #{slide};
+      | });
+      
     script(type="text/javascript",src="/node_modules/bespoke/dist/bespoke.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-theme-cube/dist/bespoke-theme-cube.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-keys/dist/bespoke-keys.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-touch/dist/bespoke-touch.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-backdrop/dist/bespoke-backdrop.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-classes/dist/bespoke-classes.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-progress/dist/bespoke-progress.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-scale/dist/bespoke-scale.min.js")
+    script(type="text/javascript",src="/node_modules/bespoke-hash/dist/bespoke-hash.min.js")                        
+    script(src="/socket.io/socket.io.js")        
+    script(type="text/javascript",src="/public/app.js")
 
   body
     block content

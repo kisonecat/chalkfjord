@@ -1,5 +1,379 @@
 extends ./main.pug
 
 block content
-  h1 WHE!
-  
+  article#presentation
+    section
+      h3 Collaboratively teaching calculus with online tools
+      h4 <a href="http://kisonecat.com/">Jim Fowler</a>
+      h4 <a href="http://math.osu.edu/">Department of Mathematics</a>
+      h4 <a href="http://osu.edu/">Ohio State University</a>
+      hr
+      h5 <a href="http://twitter.com/kisonecat">@kisonecat</a>
+
+    section
+      h3 This is a <em>department-wide</em> project involving
+      ul
+        li vice-chair <a href="https://people.math.osu.edu/carlson.6/">Tim Carlson</a>,
+        li the <em>Calculus Design Coordinator</em> <a href="https://math.osu.edu/people/johnson.5316">John Johnson</a>,
+        li many of my colleagues in math, as well as
+        li funding from
+          ul
+            li the <a href="https://oaa.osu.edu/">Office of Academic Affairs</a>,
+            li the <a href="https://odee.osu.edu/">Office of Distance Education and eLearning</a>, and
+            li the <a href="http://www.nsf.gov/">NSF</a> (<a href="http://ximera.osu.edu/">Ximera</a>, <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1245433">DUE-1245433</a>).
+
+    section(data-bespoke-backdrop="emphatic")
+      h1 Calculus Courses
+      
+    section
+      h2 Calculus One
+      img(src="images/calculus-one.png")
+      
+    section
+      h2 Calculus Two
+      img(src="images/calculus-two.png")
+
+    section
+      h2 Multivariable Calculus
+      img(src="images/m2o2c2.png")
+
+    section
+      img(src="images/cow.svg")
+
+    section(data-bespoke-backdrop="emphatic")
+      h1 Videos
+
+    section
+      h2 What&lsquo;s good about video?
+      textarea(id="good-video")
+
+    section
+      h2 What&lsquo;s good about video?    
+      p(id="good-video-results")
+
+    section
+      h2 What&lsquo;s bad about video?
+      textarea(id="bad-video")
+
+    section
+      h2 What&lsquo;s bad about video?    
+      p(id="bad-video-results")      
+
+    section
+      h2 Tactile arguments
+      <iframe class="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/_Ui5_-lIK34?start=210&version=3&enablejsapi=1&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>
+
+    section
+      h2 Graphics
+      <iframe class="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/BjmypdFCl-Q?start=622&version=3&enablejsapi=1&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>
+
+    section
+      h2 Handwriting
+      <iframe class="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/nEqCaj3hBKU?start=127&version=3&enablejsapi=1&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>
+
+    section
+      h2 Storytelling      
+      <iframe class="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/rNBoGy19lHc?start=76&version=3&enablejsapi=1&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe> 
+
+    section
+      h2 Publish your teaching
+      
+    section
+      h2 Autocutter
+      img(style="max-width: 90%; max-height: 90%;" src="/images/fft.png")
+      h3 <a href="https://github.com/kisonecat/autocut">https://github.com/kisonecat/autocut</a>
+
+    section(data-bespoke-backdrop="emphatic")
+      h1 The Problem
+
+    section
+      h4 Kids like math?
+      p The <a href="http://timss.bc.edu/timss2011/downloads/T11_IR_Mathematics_FullBook.pdf#page=19">Trends in International Mathematics and Science Study (TIMMS)</a> found that about half of fourth graders &rdquo;like learning mathematics&ldquo; but only about a quarter of eighth graders feel the same way.
+      
+    section
+      img(src="/images/enjoyment.svg")
+
+    section
+      img(src="/images/confidence.svg")
+      
+    section
+      img(src="/images/calculus-two-required.svg")
+      
+    section
+      img(src="/images/calculus-two.svg")
+    
+    section
+      h1 Goals
+          
+      p Implement interventions so students&hellip;
+      ul
+        li learn more math, and
+        li stick with STEM.
+
+    section
+      h1 Metrics
+      
+      ul
+        li <a href="https://github.com/mooculus/concepts">Conceptual pre- and post-tests</a>
+        li Surveys modeled along the <a href="http://www.maa.org/sites/default/files/pdf/cspcc/InsightsandRecommendations.pdf"><em>Characteristics of Successful Programs in College Calculus</em></a> (CSPCC) study
+        li <a href="https://math.osu.edu/sites/math.osu.edu/files/Math1151_SampleMidterm1.pdf">Traditional exams</a>
+
+    section
+      h1 Interventions
+      dl
+        dt Traditional
+        dd 180-student lecture and 32-student recitations
+        dt Ximera
+        dd an open-source text and homework system
+        dt Active
+        dd with peer instruction and clickers
+        dt Flipped
+        dd meeting twice/week and online
+        dt Huge
+        dd with 384 students in the lecture
+        dt Epsilon
+        dd with 32 students in the lecture
+
+    section(data-bespoke-backdrop="emphatic")
+      h1 Do students notice?
+
+    section
+      img(src="/images/group-work-frequency-summary.svg")
+      
+    section
+      img(src="/images/student-explanation-frequency-summary.svg")
+      
+    section
+      img(src="/images/use-technology-summary.svg")
+      
+    section
+      img(src="/images/whole-discussion-frequency-summary.svg")
+      
+    section
+      h1 A day in Active
+
+      p Class consists of a short (10-15 minutes) lecture, a question presented via Top Hat,  peer instruction and discussion of responses, a whole class discussion, a summary of the correct response, repeat.
+      p Recitations consist of students working in small groups on worksheets, followed by whole class discussions.
+
+    section
+      img(src="/images/assignments-group.svg")
+      
+    section
+      img(src="/images/use-clickers.svg")
+      
+    section
+      h1 A day in Flipped
+
+      p On Monday, Wednesday, and Friday, students complete online lessons instead of attending lecture.
+      p On Tuesdays and Thursdays, students attend recitation either in person or synchronously through the web.
+      p Recitations are centered around active learning with students working on problems in groups.
+
+    section
+      img(src="/images/contributed-to-discussion.svg")
+
+    section
+      h1 Do students notice?
+      hr
+      p The students noticed real differences in the interventions.
+      p No significant change in exam scores.
+
+    section(data-bespoke-backdrop="emphatic")
+      h1 Open source textbooks
+
+    section
+      p The math department 
+      p started with an open source calculus text 
+      p written in the 1990s 
+      p and has edited it 
+      p collaboratively via GitHub.
+
+    section
+      h1 Research Question
+      p Structured as a <em>non-inferiority study.</em>
+
+    section
+      a(href="http://ximera.osu.edu/course/mooculus/mooculus/")
+        img(src="/images/ximera-landing.png")
+
+    section
+      a(href="http://ximera.osu.edu/course/mooculus/mooculus/master/textbook/limitLaws/digInTheSqueezeTheorem")
+        img(src="/images/ximera-multiple-choice.png")
+
+    section
+      a(href="http://ximera.osu.edu/course/mooculus/mooculus/master/textbook/continuity/digInTheIntermediateValueTheorem")
+        img(src="/images/ximera-expression.png")
+
+    section
+      a(href="http://ximera.osu.edu/course/mooculus/mooculus/master/textbook/understandingFunctions/digInForEachInputExactlyOneOutput")
+        img(style="width: 50%;", src="/images/ximera-mobile.jpg")
+
+    section
+      a(href="https://github.com/mooculus/calculus1")
+        img(src="/images/commits.png")
+
+    section
+      img(src="/images/ximera-infographic.svg")
+
+    section
+      h2 Design considerations
+      ul
+        li Plain text
+        li Repurpose existing content
+        li Graceful degradation
+        li Act like software engineers
+        li Avoid edge cases by using humans
+
+    section
+      p The choice is not between zero and non-zero price.
+      p The choice is between open and closed.
+
+      h2 What does a closed textbook say about learning?
+      textarea(id="closed-textbook")
+
+    section
+      h2 What does a closed textbook say about learning?
+      p(id="closed-textbook-results")
+
+    section
+      img(src="/images/i-read-textbook-binary.svg")
+      
+    section
+      img(src="/images/ximera-experiences.svg")
+
+    section
+      img(src="/images/textbook-helped-me.svg")
+
+    section
+      img(src="/images/textbook-readable.svg")
+
+    section
+      img(src="/images/ximera-experiences-final-exam.svg")
+      
+    section(data-bespoke-backdrop="emphatic")
+      h1 Concept inventory
+
+    section
+      h2 Goals
+      ul
+        li Open
+        li A &ldquo;concept inventory&rdquo;
+        li Large bank of aligned items
+        li Easy to administer
+        li Quick for students
+
+    section
+      h2 What makes a question into a &ldquo;question&rdquo; conceptual?
+      textarea(id="conceptual")
+
+    section
+      h2 What makes a question into a &ldquo;question&rdquo; conceptual?
+      p(id="conceptual-results")
+        
+    section
+      img(src="/images/answer-sheet.svg")
+
+    section
+      h3 Problem P11
+      div(class="problem")
+        p The graph of the position of an object with respect to time is given by a straight line with a positive slope.
+        p What can we say about the acceleration of the object?
+        ol(type="a")        
+          li It is positive.
+          li It is negative.
+          li It is zero.
+          li The acceleration changes from negative to positive.
+          li We cannot say anything about the sign of the acceleration.
+
+    section
+      img(src="/images/p11.svg")
+
+    section
+      h3 Problem P13
+      div(class="problem")      
+        p Four equally spaced numbers are shown below on a number line.
+        img(style="width: 100%;",src="/images/number-line.svg")
+        p Let <em>f(t) = ln t</em> and consider <em>f(x)</em> and <em>f(y)</em> and <em>f(z)</em> and <em>f(w)</em>.  Among the pairs listed below, which pair of numbers is farthest apart?
+        ol(type="a")
+          li The pair <em>f(x)</em> and <em>f(y)</em>.
+          li The pair <em>f(y)</em> and <em>f(z)</em>.
+          li The pair <em>f(z)</em> and <em>f(w)</em>.
+          li These pairs are all equally far apart.
+
+    section
+      img(src="/images/p13.svg")      
+
+    section
+      img(src="/images/cka-problem-p13-and-p11.svg")
+
+    section
+      h2 What does this suggest about P13 and P11?
+      textarea(id="why-p13-and-p11")
+
+    section
+      h2 What does this suggest about P13 and P11?    
+      p(id="why-p13-and-p11-results")
+      
+    section
+      h3 Problem P12
+      div(class="problem")
+        p Two racers start a race at the same moment and finish in a tie.
+        p Which of the following must be true?
+        ol(type="a")
+          li At some point during the race the two racers were not tied.
+          li The racers&lsquo; speeds at the end of the race must have been exactly the same.
+          li The racers must have had the same speed at exactly the same time at some point in the race.
+          li The racers had to have the same speed at some moment, but not necessarily at exactly the same time.
+
+    section
+      img(src="/images/cka-problem-p12.svg")
+
+    section
+      img(src="/images/mosaic-p12.svg")
+
+    section
+      img(src="/images/mosaic-p12-active.svg")
+
+    section
+      h2 What does this suggest about P12?
+      textarea(id="why-p12")
+
+    section
+      h2 What does this suggest about P12?
+      p(id="why-p12-results")
+      
+    section
+      img(src="/images/mosaic-p18.svg")
+
+    section
+      img(src="/images/mosaic-p18-active.svg")
+      
+    section
+      h3 Problem P18
+      div(class="problem")      
+        p Let <em>f</em> be a polynomial function.  Assume you know that the rate of change of <em>f</em> is always increasing on the <em>[a,b]</em>.
+        p What can you say about <em>f</em>?
+        ol(type="a")
+          li <em>f</em> must have an absolute maximum value on <em>[a,b]</em> but it is unknown whether it has an absolute minimum value.
+          li <em>f</em> must have an absolute minimum value on <em>[a,b]</em> but it is unknown whether it has an absolute maximum value.
+          li <em>f</em> must have both an absolute maximum value and an absolute minimum value.
+          li It is not guaranteed that <em>f</em> will have an absolute maximum or an absolute minimum value on <em>[a,b]</em>.
+      
+    section(data-bespoke-backdrop="emphatic")
+      h1 The Community
+
+    section
+      h1 You are at a conference.
+      p The theory of change
+      p depends on creating a 
+      p community of change.
+
+    section
+      p The community of X
+      p should be the best 
+      p expositors of X.
+
+    section
+      h1 Thank you!
+      div(style="width: 100%; text-align: right;")
+        a(href="https://creativecommons.org/licenses/by-nc-sa/3.0/")
+          img(style="width: 10%;",src="images/cc-logo.svg")

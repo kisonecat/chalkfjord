@@ -1,0 +1,47 @@
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+dt {
+    float: left;
+    width: 25%;
+    /* adjust the width; make sure the total of both is 100% */
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 12pt;
+}
+dd {
+  float: left;
+  width: 75%;
+  text-align: left;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 25%;
+    padding: 6pt;
+}
+
+.problem p
+{
+    text-align: left;
+}
+
+.problem ol
+{
+    margin: 0 100px 12px;
+    text-align: left;
+}
